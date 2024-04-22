@@ -1,0 +1,8 @@
+Django==5.0.4
+djangorestframework==3.15.1
+Markdown==3.6
+django-filter==24.2
+requests==2.31.0
+djangorestframework-simplejwt==5.3.1
+djoser==2.2.2
+
