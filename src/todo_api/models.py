@@ -10,3 +10,17 @@ class Todo(models.Model):
 
     def __str__(self) -> str:
         return self.task
+    
+
+class Movie(models.Model):
+    title = models.CharField(max_length=200)
+    desc = models.TextField()
+    rating = models.IntegerField()
+
+    uzb_gross = models.IntegerField()
+    world_gross = models.IntegerField()
+    phone_number = models.CharField(max_length=13)
+
+    def __str__(self) -> str:
+        return self.title
+    
